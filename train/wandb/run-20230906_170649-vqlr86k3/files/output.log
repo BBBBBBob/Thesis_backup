@@ -1,0 +1,12 @@
+
+  0%|                                                                                                                                                                                      | 0/800 [00:01<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 373, in <module>
+    train(device=device, save_path=save_path, learning_rate=args.lr,
+  File "train.py", line 167, in train
+    pred_pos_pix_dist_unnorm_1 = projection(
+  File "/home/jiacheng/Documents/submission_JiachengQiu/train/utils.py", line 46, in projection
+    pred_pos_img_dist = distort(pred_pos_img, optical_center, focal_length, batch_size, K)
+  File "/home/jiacheng/Documents/submission_JiachengQiu/train/utils.py", line 12, in distort
+    theta_d = theta * (1.0 + K[0] * theta2 + K[1] * theta4 + K[2] * theta6 + K[3] * theta8)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 7.79 GiB total capacity; 6.81 GiB already allocated; 2.19 MiB free; 6.83 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

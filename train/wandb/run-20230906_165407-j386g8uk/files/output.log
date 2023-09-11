@@ -1,0 +1,13 @@
+  0%|                                                                                                                                                                                      | 0/800 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 373, in <module>
+    train(device=device, save_path=save_path, learning_rate=args.lr,
+  File "train.py", line 114, in train
+    pred_last_pos_world_mean, pred_last_pos_world_var, pi, mu, var = net(history_pos_pix, device)
+  File "/home/jiacheng/anaconda3/envs/drone_traj/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/jiacheng/Documents/submission_JiachengQiu/train/net.py", line 113, in forward
+    pi, mu, var = self.MDN(dec_output_in)
+  File "/home/jiacheng/anaconda3/envs/drone_traj/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1207, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'GRU_ATT' object has no attribute 'MDN'

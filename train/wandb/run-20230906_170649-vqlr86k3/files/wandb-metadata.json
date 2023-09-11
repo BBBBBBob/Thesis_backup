@@ -1,0 +1,99 @@
+{
+    "os": "Linux-5.15.0-83-generic-x86_64-with-glibc2.17",
+    "python": "3.8.16",
+    "heartbeatAt": "2023-09-06T15:06:50.465716",
+    "startedAt": "2023-09-06T15:06:49.482382",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "host": "jiacheng",
+    "username": "jiacheng",
+    "executable": "/home/jiacheng/anaconda3/envs/drone_traj/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2878.960333333334,
+        "min": 800.0,
+        "max": 4500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4269.045,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 4278.479,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "total": 74.58170700073242,
+        "used": 49.600929260253906
+    },
+    "gpu": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2070 with Max-Q Design",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.407638549804688
+    }
+}
